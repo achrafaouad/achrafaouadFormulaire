@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
+
+body{
+    margin: 0;
+    background: url(wp2704838-best-background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Kirang Haerang', cursive;
+   
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    padding: 20px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background: rgba(229, 244, 251,.7);
+    border-radius: 10px;
+    box-shadow: 10px 2px 6px black;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.input{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+
+  background: transparent;
+  transition: border-color 0.2s;
+    
+}
+
+input::placeholder{
+    outline: none;
+    border: none;
+
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+}
+.checki{
+    margin-top: 20px;
+}
+.bb{
+    margin-top: 20px;
+}
+
+button{
+    background-color: RGB(28, 126, 214);
+}
